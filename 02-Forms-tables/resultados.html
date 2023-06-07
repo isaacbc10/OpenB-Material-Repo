@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resultados</title>
+</head>
+<body>
+    <h3>Estos son los resultados</h3>
+    <div id="resultados"></div>
+        <br>
+        <a href="tarea-table-forms.html">Volver a el formulario</a>
+    <script>
+        const resDiv = document.getElementById("resultados")
+        new URLSearchParams(window.location.search).forEach((val, name) => {
+            resDiv.append(`${name}: ${val}`)
+            resDiv.append(document.createElement("br"))
+
+        })
+    </script>
+</body>
+</html>

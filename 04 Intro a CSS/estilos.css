@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+/* Estoy probando comentarios*/
+p {
+    color: blue;
+    font-size: 30pt;
+    font-style: italic;
+    color: green;
+}
+/* La caracteristica de mas abajo, tiene prioridad*/
+#primera-noticia {
+    color:black;
+    font-size: 15pt;
+    font-style:normal;
+}
+/* Si se indica adelante a que grupo, solo se le aplicara a dicho grupo*/
+span#primera-noticia {
+    color:royalblue;
+    font-size:20pt;
+}
+
+p#segunda-noticia {
+    color:blueviolet;
+    font-size: 40pt;
+}
+    
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+/* El selector universal es el simbolo "*" */
+*.warning {
+    color: greenyellow;
+}
+
+.autor {
+    text-decoration: underline;
+}
+.fecha {
+    text-decoration: underline;
+}
+.ubicacion {
+    text-decoration: underline;
+}
+/* Pero tambien se puede de esta forma, no solo afecta a clases, se puede meter de todo*/
+.autor, .fecha, .ubicacion h1 #segunda-noticia{
+    text-decoration: underline;
+}

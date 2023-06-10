@@ -1,0 +1,52 @@
+/* Estilos para colores*/
+.colores{
+    color: aquamarine;
+}
+
+.color-hexadecimal{
+    color: #81C14B;
+}
+
+.color-rgb{
+    color: rgb(55, 180, 255)
+}
+
+.color-rgba{
+    color: rgba(10, 180, 30, 0.6)
+}
+
+/* Fondos */
+.fondo{
+    background-color: #faa613;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg");
+    background-position: center center;
+}
+.fondo-interno{
+    background-color: #faa613;
+    background-image: url("material/fondo.jpg");
+    background-position: center center;
+}
+/*Tamaños*/
+.ancho{
+    background-color: #85f13c;
+    width: 150px;
+}
+.alto{
+    background-color: rosybrown;
+    height: 100px;
+    width: 300px
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(10, 150, 48);
+    border-width: 1px;
+    border-top: none;
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px; */
+    margin: 20px 10px;
+}
+/* Orden de Elementos hacia el centro, o contenido.
+MARGIN
+BORDER
+PADDING */

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.hover {
+    background-color: crimson;
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.hover:hover {
+    background-color: brown; 
+}
+
+.listado {
+    margin: 5px;
+    padding:5px;
+    background-color: gold;
+    width: 400px;
+    height: 180px;
+}
+
+.listado p:first-child {
+    color: black;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color:lawngreen;
+}
+
+a:hover {
+    color:mediumpurple;
+}
+
+a:active {
+    color:lightcoral;
+}

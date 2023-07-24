@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+
+.botones {
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+.google-bt {
+    background-color: #0D0C22;
+    border: none;
+    border-radius: 5px;
+    height: 52px;   
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;        
+}
+
+.google-bt:hover {
+    opacity: 0.7;
+}
+
+.google-bt picture {
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.google-bt picture img {
+    width: 75%;
+}
+
+.google-bt span {
+    color: white;
+    font-weight: 500;
+    padding: 25px;
+    font-size: 12pt;
+}
+
+.twitter-bt {
+    width: 52px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.twitter-bt picture {
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    padding: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.twitter-bt picture img {
+    width: 75%;
+}
+
+.twitter-bt:hover {
+    background-color: rgb(199, 194, 194);
+}
+
+.separador {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.separador hr {
+    width: 100%;
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separador span {
+    color: #8b8b8b8b
+}
+
+#password::placeholder {
+    font-size: 12pt;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+label input {
+    width: 100%;
+    background-color: #f3f3f4;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    transition: background-color 0.5s, border 0.5s, box-shadow 0.5s;
+}
+
+.section-inputs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 60px;
+    padding-right: 50px;
+} 
+
+.section-inputs input {
+    flex: 1;
+    background-color: #f3f3f4;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    transition: background-color 0.5s, border 0.5s, box-shadow 0.5s;
+}
+
+label input:hover {
+    background-color: white;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label input:focus {
+    background-color: white;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+.checkbox-lbl {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-lbl [type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox-lbl span {
+    order: 1;   
+    font-weight: 400;
+}
+
+.create-acc {
+    font-weight: 700;
+    display: flex;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #B23967;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.create-acc:hover {
+    opacity: 0.7;
+}

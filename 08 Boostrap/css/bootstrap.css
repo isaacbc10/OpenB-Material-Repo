@@ -1,0 +1,10 @@
+.relleno {
+    display: flex;
+    background-color: green;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

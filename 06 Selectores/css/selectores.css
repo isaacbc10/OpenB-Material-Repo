@@ -1,0 +1,15 @@
+.p-contenedor {
+    color: blue;
+}
+
+.contenedor p {
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: aquamarine;
+}
+
+.main .contenedor #true {
+    color: red;
+}
